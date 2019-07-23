@@ -15,7 +15,7 @@ class SwapLinkedListElementsTest(unittest.TestCase):
 
         result = swap_pairs_in_single_linked_list.swap_pairs(linked_list)
 
-        self.assertEquals(expected_list[0], result.val)
+        self.assertEqual(expected_list[0], result.val)
         iterator = SteppedSingleLinkedListIterator(result, 1)
         self.verify_list(iterator, expected_list)
 

@@ -29,13 +29,13 @@ class MultipleStacksInAnArrayTestCase(unittest.TestCase):
         stack_context = StackContext(2, 4)
         stack = stack_context.get_stack(0)
         next_stack = stack_context.next_stack(stack)
-        self.assertEquals(1, stack_context.stack_indices[next_stack])
+        self.assertEqual(1, stack_context.stack_indices[next_stack])
 
     def test_next_stack_is_first_stack(self):
         stack_context = StackContext(2, 4)
         stack = stack_context.get_stack(1)
         next_stack = stack_context.next_stack(stack)
-        self.assertEquals(0, stack_context.stack_indices[next_stack])
+        self.assertEqual(0, stack_context.stack_indices[next_stack])
 
     def test_reject_to_create_stacks_without_enough_context_capacity(self):
         with self.assertRaises(IndexError):
