@@ -8,6 +8,7 @@ algorithms/list_asserts.py
 algorithms/lists.py
 algorithms/multiple_stacks_in_an_array.py
 algorithms/remove_an_specific_element_from_an_array.py
+algorithms/rice_chess.py
 algorithms/santas_missing_list.py
 algorithms/sort_string_with_numbers.py
 algorithms/sorted_lists.py
@@ -34,6 +35,7 @@ tests/test_longest_substring_without_repeating.py
 tests/test_multiple_stacks_in_an_array.py
 tests/test_remove_an_specific_element_from_an_array.py
 tests/test_remove_duplicates_from_sorted_list.py
+tests/test_rice_chess_problem.py
 tests/test_santas_missing_list.py
 tests/test_single_linked_list_factory.py
 tests/test_single_linked_list_stepped_forward_iterator.py
